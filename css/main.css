@@ -1,0 +1,39 @@
+body {
+    font-family: roboto;
+}
+
+/* Navigation */
+
+nav {
+    background: black;
+    width: 1300px;
+    height: 78px;
+    position: fixed;
+}
+
+a {
+    font-size: x-large;
+    line-height: 4;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+
+a:hover {
+    color: #C2B280;
+}
+
+a.active{
+    color: grey;
+}
+
+img#logo {
+    margin-top: 2px;
+    margin-right: 90px;
+    margin-left: 130px;
+}
+
